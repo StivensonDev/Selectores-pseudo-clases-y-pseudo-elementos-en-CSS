@@ -1,0 +1,13 @@
+.btn{
+    height: 100px;
+    width: 200px;
+}
+
+.btn:hover{
+    color: white;
+    background-color: green;
+}
+
+.btn:hover::before{
+    content: "¡Hecho! ";
+}
